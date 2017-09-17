@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Portable GIS: A Brief Introduction</title>
+
+		<meta name="description" content="Portable GIS: A Brief Introduction">
+		<meta name="author" content="Jo Cook">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/sky.css" id="theme">
+		<link rel="stylesheet" href="css/custom.css">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+		<script>
+			if( window.location.search.match( /print-pdf/gi ) ) {
+				var link = document.createElement( 'link' );
+				link.rel = 'stylesheet';
+				link.type = 'text/css';
+				link.href = 'css/print/pdf.css';
+				document.getElementsByTagName( 'head' )[0].appendChild( link );
+			}
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>Portable GIS: A Brief Introduction</h1>
+					<p>
+						Steven Feldman / <a href="http://twitter.com/archaeogeek">@StevenFeldman</a>, on behalf of Jo Cook / <a href="http://twitter.com/archaeogeek">@archaeogeek</a>
+					</p>
+				</section>
+
+				<section>
+					<h2>Once upon a time... (in 2006)</h2>
+					<p>It was hard to work with open source geospatial tools, you had to use the command line to install and configure, let alone use them</p>
+					<p>OSGeo4W did not exist</p>
+					<p>QGIS was 4 years old, but not commonly used</p>
+				</section>
+				<section>
+					<p>GRASS GIS was the most common open source desktop GIS and it looked like this:</p>
+					<img class="center" src="./images/native_wingrass63.jpg">
+				</section>
+
+				<section>
+					<h2>Some packages still had to be compiled from source- on Windows!</h2>
+					<p class="fragment">and so Portable GIS was born</p>
+					<p class="fragment">out of a need to make things easier, for windows users in particular</p>
+				</section>
+
+				<section>
+				<ul>
+					<h2>Portable GIS (noun)</h2>
+					<ul>
+					<li><h3>Born 2006 (ish)</h3></li>
+					<li><h3>"por.ta.ble": capable of being carried or moved about</h3></li>
+					<li><h3>"g.i.s": geographical information systems</h3></li>
+					<li><h3>aka: GIS on a stick</h3></li>
+				</ul>
+				</section> 	 
+
+				<section>
+					<h2>What it is:</h2>
+					<ul>
+					<li><h3>A self-contained set of the common open source GIS packages, designed to run in windows, from a USB stick</h3></li>
+					<li><h3>Installed using a single installer file, requiring no additional configuration or setup</h3></li>
+					<li><h3>Along with some Ordnance Survey Open Data</h3></li>
+					<li><h3>And a control panel for easy access to all the components</h3></li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>What it is not:</h2>
+					<ul>
+						<li><h3>The same as OSGeo4W</h3></li>
+						<li><h3>The same as OSGeo Live</h3></li>
+						<li><h3>Compatible with "portableapps.com"</h3></li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>What it is also not:</h2>
+					<ul>
+						<li><h3>A Bootable Drive (like OSGeo Live)</h3></li>
+						<li><h3>Cross-Platform</h3></li>
+						<li><h3>Small- current installation is a 1.1GB download and 4.6GB installed</h3></li>
+					</ul>
+				</section>
+
+				<section data-background="./images/stealthkitty.jpg">
+					<h2 style="color:black; margin-top:400px !important" class="fragment">also not a stealth system</h2>
+				</section>
+
+				<section>
+					<h2>OK, so what software does it contain?</h2>
+				</section>
+
+				<section data-background="./images/apps_wordcloud.png" class="full" data-background-position="top">
+				</section>
+
+				<section>
+					<h2>and what is it for?</h2>
+					<p class="fragment">rapid-deployment scenarios, education, training workshops, any time you want to take your work home with you...</p>
+				</section>
+
+				<section>
+					<img class="center" src="./images/tweet.png">
+				</section>
+
+				<section>
+					<img class="center" src="./images/tweet2.png">
+				</section>
+
+				<section>
+					<h2>Where can I get it?</h2>
+					<h3>Download the exe file (~1.1GB) from:</h3>
+					<h3><a href="http://portablegis.xyz/" target="_blank">portablegis.xyz</a></h3>
+				</section>
+
+				<section>
+					<h2>Is it Open Source?</h2>
+					<h3>Yes!</h3>
+					<p>It has a GLPv3 license, and the source code is hosted at <a href="https://gitlab.com/archaeogeek/portable-gis" target="_blank">https://gitlab.com/archaeogeek/portable-gis</a></h3>
+				</section>
+
+				<section>
+					<h2>Contributions are welcome!</h2>
+					<p>Certification as an OSGeo Community Project is in progress</p>
+					<img class="center" src="./images/hipsterkitty.jpg">
+				</section>
+
+				<section>
+					<h2>Is there documentation?</h2>
+					<h3>Yes!</h3>
+					<p>Documentation is available at <a href="http://portable-gis-docs.readthedocs.io/" target="_blank">http://portable-gis-docs.readthedocs.io/</a></p>
+					<p class="fragment">Contributions are welcome to that too</p>
+				</section>
+
+								
+				<section>
+					<h2>Future Development Plans</h2>
+					<ul>
+						<li>PostGreSQL 9.x with PostGIS 2.4+</li>
+						<li>Keep pace with QGIS LTR</li>
+						<li>Updates to Apache, Geoserver, Mapserver</li>
+						<li>Re-design control panel (the only part which is freeware)</li>
+						<li>Possible alignment with OSGeo Live</li>
+					</ul>
+				</section>
+
+
+				<section>
+					<h3>If you find it useful, or would like to help with development then...</h3>
+				</section>
+
+				<section>
+					<h2>Great!</h2>
+					<h2>\0/</h2>
+					<h2>:-)</h2>
+					<p>Let me know, I love to hear about real world uses for it- it makes the effort worthwhile</p>
+				</section>
+
+				<section data-background="./images/puppy.jpg">
+				</section>
+
+				<section>
+					<h2>Thanks!</h2>
+					<h3><a href="http://portablegis.xyz/" target="_blank">portablegis.xyz</a></h3>
+					<p>
+						<a href="http://isharemaps.com">Jo Cook, Astun Technology</a> / <a href="http://twitter.com/archaeogeek">@archaeogeek</a>
+					</p>
+					<img class="center" src="./images/logo.jpg" alt="Astun Logo">
+				</section>
+
+				
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'none', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Parallax scrolling
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				// parallaxBackgroundSize: '2100px 900px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
